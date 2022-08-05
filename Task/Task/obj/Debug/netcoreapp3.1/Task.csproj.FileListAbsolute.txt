@@ -1,0 +1,14 @@
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.exe
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.deps.json
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.runtimeconfig.json
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.runtimeconfig.dev.json
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.dll
+C:\GameDev\Education\NapNap\Task\Task\bin\Debug\netcoreapp3.1\Task.pdb
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.csproj.AssemblyReference.cache
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.AssemblyInfoInputs.cache
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.AssemblyInfo.cs
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.csproj.CoreCompileInputs.cache
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.dll
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.pdb
+C:\GameDev\Education\NapNap\Task\Task\obj\Debug\netcoreapp3.1\Task.genruntimeconfig.cache
