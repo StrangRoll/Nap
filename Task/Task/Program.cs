@@ -9,10 +9,6 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-<<<<<<< Updated upstream
-        {
-            Console.WriteLine("Hello World!");
-=======
         {
             Good iPhone12 = new Good("IPhone 12");
             Good iPhone11 = new Good("IPhone 11");
@@ -86,17 +82,24 @@ namespace ConsoleApp1
             }
         }
 
-        public void ReserevGoods(Good good, int count)
+        public bool TryReserevGoods(Good good, int count)
         {
             if (good == Good && count > 0 && Count - count - _reserevedGoodsCount >= 0)
+            {
                 _lastReserevedGoodsCount = count;
+                return true;
+            }
             else
+            {
                 _lastReserevedGoodsCount = 0;
+                Console.WriteLine("Не хватает товаров");
+                return false;
+            }
         }
 
         public int AddToCart()
         {
-            _reserevedGoodsCount -= _lastReserevedGoodsCount;
+            _reserevedGoodsCount += _lastReserevedGoodsCount;
             var temporaryLastReserve = _lastReserevedGoodsCount;
             _lastReserevedGoodsCount = 0;
             return temporaryLastReserve;
@@ -154,9 +157,8 @@ namespace ConsoleApp1
 
                 if (neededGood != null)
                 {
-                    if (neededGood.Count >= count)
+                    if (neededGood.TryReserevGoods(good, count))
                     {
-                        neededGood.ReserevGoods(good, count);
                         _reserevedCell = neededGood;
                         return true;
                     }
@@ -283,7 +285,6 @@ namespace ConsoleApp1
             }
 
             return false;
->>>>>>> Stashed changes
-        }
+       }
     }
 }
